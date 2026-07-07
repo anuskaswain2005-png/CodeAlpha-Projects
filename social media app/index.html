@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ConnectHub - Social Media Platform</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+ConnectHub
+</div>
+
+<div class="nav-icons">
+<i class="fas fa-home"></i>
+<i class="fas fa-bell"></i>
+<i class="fas fa-user"></i>
+</div>
+
+</nav>
+
+<div class="container">
+
+<div class="profile-card">
+
+<img
+src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&q=80"
+alt="Profile">
+
+<h2>Anuska Swain</h2>
+
+<p>BCA Student | Web Developer</p>
+
+<button id="followBtn" onclick="followUser()">
+Follow
+</button>
+
+<div class="stats">
+
+<div>
+<h3>25</h3>
+<p>Posts</p>
+</div>
+
+<div>
+<h3 id="followers">520</h3>
+<p>Followers</p>
+</div>
+
+</div>
+
+<div class="trending">
+
+<h3>Trending</h3>
+
+<p>#coding</p>
+<p>#javascript</p>
+<p>#webdevelopment</p>
+<p>#technology</p>
+
+</div>
+
+</div>
+
+<div class="feed">
+
+<div class="stories">
+
+<div class="story">A</div>
+<div class="story">B</div>
+<div class="story">C</div>
+<div class="story">D</div>
+
+</div>
+
+<div class="create-post">
+
+<textarea
+id="postInput"
+placeholder="What's on your mind Anuska?">
+</textarea>
+
+<button onclick="createPost()">
+Post
+</button>
+
+</div>
+
+<div id="posts">
+
+<div class="post">
+
+<div class="post-header">
+
+<img
+src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&q=80">
+
+<div>
+
+<h4>Anuska Swain</h4>
+
+<small>Just now</small>
+
+</div>
+
+</div>
+
+<p>
+Hello everyone! This is my Social Media Platform Project built using HTML, CSS and JavaScript.
+</p>
+
+<div class="actions">
+
+<button onclick="likePost(this)">
+🤍 Like
+</button>
+
+<span class="like-count">0</span>
+
+</div>
+
+<div class="comment-box">
+
+<input
+type="text"
+placeholder="Add a comment">
+
+<button onclick="addComment(this)">
+Comment
+</button>
+
+</div>
+
+<ul class="comments"></ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
