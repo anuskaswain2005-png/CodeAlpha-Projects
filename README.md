@@ -40,7 +40,7 @@ Each project demonstrates different front-end development concepts, responsive U
 
 <p align="center">
 
-![E-Commerce Store](screenshot.png.png)
+![E-Commerce Store](screenshot.png)
 
 </p>
 
@@ -89,9 +89,9 @@ CodeAlpha-Projects
 │
 ├── social media app
 │
-├── ecommerce-preview.png
+├── screenshot.png
 │
-├── social-preview.png
+├── screenshot_1.png
 │
 └── README.md
 ```
